@@ -1,5 +1,0 @@
-* Create custom User model inheriting from AbstractUser. If a new feature needed in the future, easily can be added.
-	- This custom User model should be added to settings.py as AUTH_USER_MODEL = "[app_name].User".
-
-	class User(AbstractUser):
-		pass
